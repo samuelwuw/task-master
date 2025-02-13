@@ -1,0 +1,27 @@
+# Ignorar node_modules (geralmente os pacotes são instalados dentro do container)
+node_modules
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos temporários do editor
+.vscode
+.idea
+*.swp
+
+# Ignorar arquivos de configuração local (se não forem necessários no container)
+.env
+.env.local
+.env.*.local
+
+# Ignorar pasta de build ou dist (geralmente o build será feito dentro do container)
+build
+dist
+
+# Ignorar pasta do git (não precisa estar no container)
+.git
+.gitignore
+
+# Ignorar testes ou diretórios específicos (se não forem necessários no container)
+tests
+__tests__
